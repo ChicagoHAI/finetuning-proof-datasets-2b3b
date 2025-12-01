@@ -1,0 +1,22 @@
+idea:
+  title: Are there any finetuning proof datasets currently?
+  domain: machine_learning
+  hypothesis: 'Some datasets are more resistant to performance gains from model finetuning
+    due to factors such as minimal train/test overlap or lack of subdistribution amplification.
+    This research will investigate which datasets, if any, are resistant or "proof"
+    against finetuning.
+
+    '
+  background:
+    description: Most datasets get easier if models finetune on them, merely because
+      of train/test overlap or because we amplify a subdistribution within the model
+      that makes the model more confident in its already-known correct answers. Which
+      datasets are most finetuning resistant? Are any of them finetuning proof?
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/XMu5uZXUuUig7I2khHhL
+    idea_id: are_there_any_finetuning_proof_20251130_232647_86eeb0b1
+    created_at: '2025-11-30T23:26:47.950113'
+    status: submitted
+    github_repo_name: finetuning-proof-datasets-2b3b
+    github_repo_url: https://github.com/ChicagoHAI/finetuning-proof-datasets-2b3b
