@@ -1,0 +1,10 @@
+# Exclude data files (can be large)
+*
+
+# Keep docs and lightweight assets
+!.gitignore
+!README.md
+!**/README.md
+!**/samples/
+!**/download.sh
+!**/download_instructions.txt

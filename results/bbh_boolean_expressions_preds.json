@@ -1,0 +1,202 @@
+[
+  {
+    "label": "False",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "true"
+  },
+  {
+    "label": "False",
+    "pred": "not"
+  },
+  {
+    "label": "False",
+    "pred": "True"
+  },
+  {
+    "label": "True",
+    "pred": "True"
+  },
+  {
+    "label": "True",
+    "pred": "True"
+  },
+  {
+    "label": "False",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "true"
+  },
+  {
+    "label": "False",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "False",
+    "pred": "True"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "False",
+    "pred": "True"
+  },
+  {
+    "label": "True",
+    "pred": "not true"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "False",
+    "pred": "not"
+  },
+  {
+    "label": "False",
+    "pred": "("
+  },
+  {
+    "label": "True",
+    "pred": "True"
+  },
+  {
+    "label": "False",
+    "pred": "True"
+  },
+  {
+    "label": "False",
+    "pred": "True"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "False",
+    "pred": "("
+  },
+  {
+    "label": "True",
+    "pred": "("
+  },
+  {
+    "label": "True",
+    "pred": "True"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "True"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "False",
+    "pred": "I"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "("
+  },
+  {
+    "label": "False",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "True"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "True"
+  },
+  {
+    "label": "False",
+    "pred": "not"
+  },
+  {
+    "label": "False",
+    "pred": "true"
+  },
+  {
+    "label": "False",
+    "pred": "("
+  },
+  {
+    "label": "True",
+    "pred": "("
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "True"
+  },
+  {
+    "label": "False",
+    "pred": "("
+  },
+  {
+    "label": "True",
+    "pred": "("
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "not"
+  },
+  {
+    "label": "True",
+    "pred": "True"
+  }
+]

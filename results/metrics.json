@@ -1,0 +1,671 @@
+{
+  "mmlu_pro": {
+    "zero_shot": {
+      "name": "zero_shot",
+      "accuracy": 0.105,
+      "ci": [
+        0.06,
+        0.145
+      ],
+      "n": 200,
+      "details_path": "results/mmlu_preds_zero_shot.jsonl"
+    },
+    "few_shot": {
+      "name": "few_shot",
+      "accuracy": 0.11,
+      "ci": [
+        0.065,
+        0.15
+      ],
+      "n": 200,
+      "details_path": "results/mmlu_preds_few_shot.jsonl"
+    },
+    "finetuned": {
+      "name": "finetuned",
+      "accuracy": 0.14,
+      "ci": [
+        0.095,
+        0.185
+      ],
+      "n": 200,
+      "details_path": "results/mmlu_preds_finetuned.jsonl"
+    },
+    "finetune_eval_metrics": {
+      "eval_loss": 0.49672067165374756,
+      "eval_runtime": 1.4745,
+      "eval_samples_per_second": 135.64,
+      "eval_steps_per_second": 8.817,
+      "epoch": 3.0
+    }
+  },
+  "bbh": {
+    "boolean_expressions": {
+      "accuracy": 0.22,
+      "n": 50,
+      "details": [
+        {
+          "label": "False",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "true"
+        },
+        {
+          "label": "False",
+          "pred": "not"
+        },
+        {
+          "label": "False",
+          "pred": "True"
+        },
+        {
+          "label": "True",
+          "pred": "True"
+        },
+        {
+          "label": "True",
+          "pred": "True"
+        },
+        {
+          "label": "False",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "true"
+        },
+        {
+          "label": "False",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "False",
+          "pred": "True"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "False",
+          "pred": "True"
+        },
+        {
+          "label": "True",
+          "pred": "not true"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "False",
+          "pred": "not"
+        },
+        {
+          "label": "False",
+          "pred": "("
+        },
+        {
+          "label": "True",
+          "pred": "True"
+        },
+        {
+          "label": "False",
+          "pred": "True"
+        },
+        {
+          "label": "False",
+          "pred": "True"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "False",
+          "pred": "("
+        },
+        {
+          "label": "True",
+          "pred": "("
+        },
+        {
+          "label": "True",
+          "pred": "True"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "True"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "False",
+          "pred": "I"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "("
+        },
+        {
+          "label": "False",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "True"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "True"
+        },
+        {
+          "label": "False",
+          "pred": "not"
+        },
+        {
+          "label": "False",
+          "pred": "true"
+        },
+        {
+          "label": "False",
+          "pred": "("
+        },
+        {
+          "label": "True",
+          "pred": "("
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "True"
+        },
+        {
+          "label": "False",
+          "pred": "("
+        },
+        {
+          "label": "True",
+          "pred": "("
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "not"
+        },
+        {
+          "label": "True",
+          "pred": "True"
+        }
+      ],
+      "details_path": "results/bbh_boolean_expressions_preds.json"
+    },
+    "causal_judgement": {
+      "accuracy": 0.44,
+      "n": 50,
+      "details": [
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "A"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "B"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "A"
+        },
+        {
+          "label": "No",
+          "pred": "A"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "A"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "B"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "B"
+        },
+        {
+          "label": "Yes",
+          "pred": "No"
+        },
+        {
+          "label": "No",
+          "pred": "No"
+        }
+      ],
+      "details_path": "results/bbh_causal_judgement_preds.json"
+    },
+    "logical_deduction_three_objects": {
+      "accuracy": 0.0,
+      "n": 50,
+      "details": [
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(C)",
+          "pred": "B"
+        },
+        {
+          "label": "(A)",
+          "pred": "B"
+        },
+        {
+          "label": "(B)",
+          "pred": "B"
+        }
+      ],
+      "details_path": "results/bbh_logical_deduction_three_objects_preds.json"
+    }
+  },
+  "config": {
+    "model": "google/flan-t5-small",
+    "device": "cuda",
+    "train_size": 400,
+    "eval_size": 200,
+    "seed": 42
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "created_at": "2025-12-01T00:35:24.759842",
+  "stages": {
+    "resource_finder": {
+      "status": "completed",
+      "started_at": "2025-12-01T00:35:24.760218",
+      "completed_at": "2025-12-01T00:40:23.193047",
+      "success": true,
+      "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/finetuning-proof-datasets-2b3b/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/finetuning-proof-datasets-2b3b/resources.md",
+        "papers_dir": "/data/hypogenicai/workspaces/finetuning-proof-datasets-2b3b/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/finetuning-proof-datasets-2b3b/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/finetuning-proof-datasets-2b3b/code"
+      }
+    },
+    "experiment_runner": {
+      "status": "completed",
+      "started_at": "2025-12-01T00:40:23.193443",
+      "completed_at": "2025-12-01T00:46:07.115235",
+      "success": true,
+      "outputs": {
+        "success": true,
+        "return_code": 0,
+        "elapsed_time": 343.9108383655548,
+        "log_file": "/data/hypogenicai/workspaces/finetuning-proof-datasets-2b3b/logs/execution_codex.log"
+      }
+    }
+  },
+  "current_stage": null,
+  "completed": true,
+  "completed_at": "2025-12-01T00:46:07.115699"
+}
